@@ -1,7 +1,12 @@
 <template>
   <div id="app">
     <hnav/>
-    <router-view/>
+    <transition name="fade">
+      <router-view/>
+    </transition>
+    <footer>
+      <div class="copyright-box">© 2019 fumika</div>
+    </footer>
   </div>
 </template>
 
@@ -24,4 +29,15 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+.fade-enter-active {
+  transition: opacity 1s ease-in
+  }
+.fade-leave-active {
+  transition: opacity .1s ease-out
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0
+}
+
 </style>
