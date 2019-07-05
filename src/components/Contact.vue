@@ -21,6 +21,9 @@
     text-align: center;
   }
   ul {
+    border: 1px dashed gray;
+    margin: 20px auto;
+    padding: 30px;
     li {
       margin: 10px;
     a {
