@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "fumika-portfolio",
+    "production": "fumika-portfolio"
+  }
+}

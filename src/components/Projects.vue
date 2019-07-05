@@ -35,7 +35,7 @@
             <img src="../assets/portfolio.png" width="400px" height="300px">
           </div>
           <div class="project__text">
-            <p><a href="" target="_blank">Portfolio</a><a href="https://github.com/fumikao/portfolio" target="_blank" class="github"><font-awesome-icon :icon="['fab', 'github']" size="2x" /></a></p>
+            <p><a href="https://fumika-portfolio.firebaseapp.com" target="_blank">Portfolio</a><a href="https://github.com/fumikao/portfolio" target="_blank" class="github"><font-awesome-icon :icon="['fab', 'github']" size="2x" /></a></p>
             <p>このサイトです。<br>Homeの背景画像は自分が撮影した写真です。<br>Vue.jsを使ってSPAで構成しました。</p>
             <p>使用技術<br>Vue.js、Firebase</p>
           </div>
