@@ -4,7 +4,6 @@ import Top from '@/components/Top'
 import About from '@/components/About'
 import Projects from '@/components/Projects'
 import Contact from '@/components/Contact'
-import PageNotFound from '@/components/PageNotFound'
 
 Vue.use(Router)
 
@@ -33,9 +32,7 @@ export default new Router({
     },
     {
       path: '*',
-      name: 'Not Found',
-      component: PageNotFound,
-      title: 'Not Found'
+      redirect: '/'
     }
   ]
 })
