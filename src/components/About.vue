@@ -20,7 +20,7 @@
             </b-card-text>
              <b-card-text>
               趣味：
-              旅行、カメラ、音楽(クラシック)
+              旅行、カメラ、音楽(クラシック) etc...
             </b-card-text>
             <a href="https://fumika23.hatenablog.com/" target="_blank" class="card-link"><font-awesome-icon :icon="['fas', 'blog']" />Blog</a>
             <a href="https://www.instagram.com/fu__o/" target="_blank" class="card-link"><font-awesome-icon :icon="['fab', 'instagram']" />Instagram</a>      
