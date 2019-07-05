@@ -13,7 +13,7 @@
               岡山県出身、1993年生まれの26歳です。
             </b-card-text>
             <b-card-text>
-              京都大学文学部卒業後、大手証券会社の地方総合職として、地元岡山で証券営業をしていました。
+              京都大学文学部卒業後、大手証券会社の地方総合職として、地元岡山で証券営業を4年間していました。
             </b-card-text>
             <b-card-text>
               もっと自分の強みを活かして楽しい人生にしたい！と一念発起し、上京。<br>プログラミングスクールにてWebエンジニアになるべく学習中。
@@ -22,7 +22,9 @@
               趣味：
               旅行、カメラ、音楽(クラシック)
             </b-card-text>
-            <a href="https://fumika23.hatenablog.com/" target="_blank" class="card-link">Blog</a>
+            <a href="https://fumika23.hatenablog.com/" target="_blank" class="card-link"><font-awesome-icon :icon="['fas', 'blog']" />Blog</a>
+            <a href="https://www.instagram.com/fu__o/" target="_blank" class="card-link"><font-awesome-icon :icon="['fab', 'instagram']" />Instagram</a>      
+
           </b-card>
         </div>
         <div class="about__bottom--skill">
