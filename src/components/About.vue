@@ -1,5 +1,87 @@
 <template>
-  <div>
-    <h1>About</h1>
+  <div class="contents">
+    <div class="about">
+      <div class="about__intro">
+        <img src="../assets/profile.jpeg" width="100px" height="100px">
+        <h3>大林 史佳</h3>
+      </div>
+      <div class="about__bottom">
+        <div class="about__bottom--profile">
+          <b-card title="Profile" sub-title="">
+            <hr>
+            <b-card-text>
+              岡山県出身、1993年生まれの26歳です。
+            </b-card-text>
+            <b-card-text>
+              京都大学文学部卒業後、大手証券会社の地方総合職として、地元岡山で証券営業をしていました。
+            </b-card-text>
+            <b-card-text>
+              もっと自分の強みを活かして楽しい人生にしたい！と一念発起し、上京。<br>プログラミングスクールにてWebエンジニアになるべく学習中。
+            </b-card-text>
+             <b-card-text>
+              趣味：
+              旅行、カメラ、音楽(クラシック)
+            </b-card-text>
+            <a href="https://fumika23.hatenablog.com/" target="_blank" class="card-link">Blog</a>
+          </b-card>
+        </div>
+        <div class="about__bottom--skill">
+          <b-card title="Skill" sub-title="">
+            <b-card-text>
+              <b-table striped hover :items="items"></b-table>
+            </b-card-text>
+          </b-card>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
+
+<script>
+  export default {
+    data() {
+      return {
+        items: [
+          { language: "HTML&CSS", level: '●●●○○' },
+          { language: "Ruby", level: '●●●○○' },
+          { language: "Rails", level: '●●●○○' },
+          { language: "javascript", level: '●●○○○' },
+          { language: "jQuery", level: '●●○○○' },
+          { language: "Vue.js", level: '●○○○○' },
+          { language: "MySQL", level: '●●○○○' },
+          { language: "AWS", level: '●○○○○' }
+        ]
+      }
+    }
+  }
+</script>
+
+<style lang="scss" scoped>
+.about {
+  margin: 30px;
+  &__intro {
+    height: 150px;
+    margin: 20px;
+    img {
+      border-radius: 50%;
+    }
+    h3 {
+      line-height: 70px;
+    }
+  }
+  &__bottom {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    &--profile {
+      width: 40%;
+      min-height: 300px;
+    }
+    &--skil {
+      width: 60%;
+      min-height: 300px;
+      margin-left: 20px;
+    }
+  }
+}
+</style>
