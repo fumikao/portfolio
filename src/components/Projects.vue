@@ -7,9 +7,9 @@
             <img src="../assets/100dreams.png" width="400px" height="300px">
           </div>
           <div class="project__text">
-            <p><a href="" target="_blank">100dreams</a><a href="https://github.com/fumikao/dreams-100" target="_blank" class="github"><font-awesome-icon :icon="['fab', 'github']" size="2x" /></a></p>
+            <p><a href="https://dreams100.herokuapp.com/" target="_blank">100dreams</a><a href="https://github.com/fumikao/dreams-100" target="_blank" class="github"><font-awesome-icon :icon="['fab', 'github']" size="2x" /></a></p>
             <p>人生でやりたいこと100のリストを管理・共有できるサイトです。<br>非同期通信・公開/非公開・ドラッグ&ドロップで並べ替えができます。</p>
-            <p>テスト用アカウント<br>Email：／Password：</p>
+            <p>（メンテナンス中です。）</p>
             <p>使用技術<br>Ruby、Rails、Sass、jQuery、MySQL、Heroku</p>
           </div>
         </div>
