@@ -15,7 +15,7 @@
                           <p class="card-text">
                             <p>（メンテナンス中です。）</p>
                             <p>人生でやりたいこと100のリストを管理・共有できるサイトです。<br>いいね・公開/非公開・ドラッグ&ドロップで並べ替え等の機能があります。</p>
-                            <p>使用技術<br>Ruby、Rails、Sass、jQuery、MySQL、Heroku</p>  
+                            <span>使用技術</span><br>Ruby、Rails、Sass、jQuery、MySQL、Heroku
                           </p>
                           <a href="https://github.com/fumikao/dreams-100" target="_blank" class="github"><font-awesome-icon :icon="['fab', 'github']" size="2x" /></a>
                       </div>
@@ -30,8 +30,8 @@
                           </h5>
                           <p class="card-text">
                             <p>多人数でチャットができるサイトです。<br>インクリメンタルサーチ、非同期送信、自動更新などの機能を実装しました。</p>
-                            <p>テスト用アカウント<br>Email：test@test.com／Password：testtest</p>
-                            <p>使用技術<br>Ruby、Rails、Sass、jQuery、MySQL、AWS</p>
+                            <p><span>テスト用アカウント</span><br>Email：test@test.com／Password：testtest</p>
+                            <span>使用技術</span><br>Ruby、Rails、Sass、jQuery、MySQL、AWS
                           </p>
                           <a href="https://github.com/fumikao/chat-space" target="_blank" class="github"><font-awesome-icon :icon="['fab', 'github']" size="2x" /></a>
                       </div>
@@ -48,7 +48,7 @@
                           </h5>
                           <p class="card-text">
                             <p>このサイトです。<br>Homeの背景画像は自分が撮影した写真です。<br>Vue.jsを使ってSPAで構成しました。</p>
-                            <p>使用技術<br>Vue.js、Firebase</p>
+                            <span>使用技術</span><br>Vue.js、Firebase</p>
                           </p>
                           <a href="https://github.com/fumikao/portfolio" target="_blank" class="github"><font-awesome-icon :icon="['fab', 'github']" size="2x" /></a>
                       </div>
@@ -79,6 +79,9 @@
     text-decoration: none;
     font-weight: bold;
     margin: 10px;
+  }
+  span {
+    font-weight: bold;
   }
   .github {
     border: none;
