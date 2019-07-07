@@ -16,15 +16,16 @@
               京都大学文学部卒業後、大手証券会社の地方総合職として、地元岡山で証券営業を4年間していました。
             </b-card-text>
             <b-card-text>
-              もっと自分の強みを活かして楽しい人生にしたい！と一念発起し、上京。<br>プログラミングスクールにてWebエンジニアになるべく学習中。
+              もっと自分の強みを活かして楽しい人生にしたい！と一念発起し、上京。<br>プログラミングスクールにてWebエンジニアになるべく学習中です。
             </b-card-text>
              <b-card-text>
               趣味：
               旅行、カメラ、音楽(クラシック) etc...
             </b-card-text>
-            <a href="https://fumika23.hatenablog.com/" target="_blank" class="card-link"><font-awesome-icon :icon="['fas', 'blog']" />Blog</a>
-            <a href="https://www.instagram.com/fu__o/" target="_blank" class="card-link"><font-awesome-icon :icon="['fab', 'instagram']" />Instagram</a>      
-
+            <ul>
+              <li><a href="https://fumika23.hatenablog.com/" target="_blank" class="card-link"><font-awesome-icon :icon="['fas', 'blog']" />  Blog</a></li>
+              <li><a href="https://www.instagram.com/fu__o/" target="_blank" class="card-link"><font-awesome-icon :icon="['fab', 'instagram']" />  Instagram</a></li>      
+            </ul>
           </b-card>
         </div>
         <div class="about__bottom--skill">
@@ -76,11 +77,11 @@
     justify-content: center;
     margin: 20px;
     &--profile {
-      width: 40%;
+      width: 50%;
       min-height: 300px;
     }
     &--skil {
-      width: 60%;
+      width: 50%;
       min-height: 300px;
       margin-left: 20px;
     }
