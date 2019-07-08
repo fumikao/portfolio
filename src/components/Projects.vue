@@ -13,8 +13,8 @@
                             <a href="https://dreams100.herokuapp.com/" target="_blank">100dreams</a>
                           </h5>
                           <p class="card-text">
-                            <p>（メンテナンス中です。）</p>
-                            <p>人生でやりたいこと100のリストを管理・共有できるサイトです。<br>いいね・公開/非公開・ドラッグ&ドロップで並べ替え等の機能があります。</p>
+                            <p>「人生でやりたいこと100のリスト」を管理・共有できるサイトです。<br>いいね・公開/非公開・ドラッグ&ドロップで並べ替え等の機能があります。</p>
+                            <p><span>テスト用アカウント</span><br>Email：test@test.com／Password：testtest</p>
                             <span>使用技術</span><br>Ruby、Rails、Sass、jQuery、MySQL、Heroku
                           </p>
                           <a href="https://github.com/fumikao/dreams-100" target="_blank" class="github"><font-awesome-icon :icon="['fab', 'github']" size="2x" /></a>
