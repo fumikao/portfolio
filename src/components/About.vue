@@ -18,9 +18,8 @@
             <b-card-text>
               もっと自分の強みを活かして楽しい人生にしたい！と一念発起し、上京。<br>プログラミングスクールにてWebエンジニアになるべく学習中です。
             </b-card-text>
-             <b-card-text>
-              趣味：
-              旅行、カメラ、音楽(クラシック) etc...
+            <b-card-text>
+              趣味：旅行、カメラ、音楽(クラシック) etc...
             </b-card-text>
             <ul>
               <li><a href="https://fumika23.hatenablog.com/" target="_blank" class="card-link"><font-awesome-icon :icon="['fas', 'blog']" />  Blog</a></li>
@@ -31,7 +30,7 @@
         <div class="about__bottom--skill">
           <b-card title="Skill" sub-title="">
             <b-card-text>
-              <b-table striped hover :items="items"></b-table>
+              <b-table striped :items="items"></b-table>
             </b-card-text>
           </b-card>
         </div>
@@ -73,17 +72,13 @@
     }
   }
   &__bottom {
-    display: flex;
-    justify-content: center;
     margin: 20px;
     &--profile {
-      width: 50%;
+      margin-bottom: 10px;
       min-height: 300px;
     }
     &--skil {
-      width: 50%;
       min-height: 300px;
-      margin-left: 20px;
     }
   }
 }
