@@ -40,6 +40,21 @@
                 <div class="card-deck">
                   <div class="card" style="width: 250px;">
                       <div class="card-img-top" style="height: 220px; background: #EEE;">
+                        <img src="../assets/vue-practice.png"height="220px">
+                      </div>
+                      <div class="card-body">
+                          <h5 class="card-title">
+                            <a href="https://fumika-vuejs-practice.firebaseapp.com/" target="_blank">Vue.js Practice</a>
+                          </h5>
+                          <p class="card-text">
+                            <p>Vue.jsに慣れるために小ネタをいくつか作ってサイトにしました。</p>
+                            <span>使用技術</span><br>Vue.js、Firebase</p>
+                          </p>
+                          <a href="https://github.com/fumikao/vue-practice" target="_blank" class="github"><font-awesome-icon :icon="['fab', 'github']" size="2x" /></a>
+                      </div>
+                  </div>
+                  <div class="card" style="width: 250px;">
+                      <div class="card-img-top" style="height: 220px; background: #EEE;">
                         <img src="../assets/portfolio.png"height="220px">
                       </div>
                       <div class="card-body">
@@ -51,13 +66,6 @@
                             <span>使用技術</span><br>Vue.js、Firebase</p>
                           </p>
                           <a href="https://github.com/fumikao/portfolio" target="_blank" class="github"><font-awesome-icon :icon="['fab', 'github']" size="2x" /></a>
-                      </div>
-                  </div>
-                  <div class="card" style="width: 250px;">
-                      <div class="card-img-top" style="height: 220px; background: #EEE;"></div>
-                      <div class="card-body">
-                        <h5 class="card-title">Comming Soon...</h5>
-                          <p class="card-text"></p>
                       </div>
                   </div>
               </div>
