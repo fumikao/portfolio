@@ -7,9 +7,10 @@
       </div>
       <div class="about__bottom">
         <div class="about__bottom--profile">
-          <b-card title="Profile" sub-title="">
+          <b-card title="自己紹介" sub-title="">
             <hr>
             <b-card-text>
+              はじめまして。大林史佳<a href="https://twitter.com/fumika78143169" target="_blank">(@fumika78143169)</a>と申します。<br>
               岡山県出身、1993年生まれの26歳です。
             </b-card-text>
             <b-card-text>
@@ -28,7 +29,7 @@
           </b-card>
         </div>
         <div class="about__bottom--skill">
-          <b-card title="Skill" sub-title="">
+          <b-card title="学習中の技術" sub-title="">
             <b-card-text>
               <b-table striped :items="items"></b-table>
             </b-card-text>
@@ -44,14 +45,12 @@
     data() {
       return {
         items: [
-          { language: "HTML&CSS", level: '●●●○○' },
-          { language: "Ruby", level: '●●●○○' },
-          { language: "Rails", level: '●●●○○' },
-          { language: "javascript", level: '●●○○○' },
-          { language: "jQuery", level: '●●○○○' },
-          { language: "Vue.js", level: '●○○○○' },
-          { language: "MySQL", level: '●●○○○' },
-          { language: "AWS", level: '●○○○○' }
+          { skill: "HTML&CSS" },
+          { skill: "JavaScript/jQuery" },
+          { skill: "Ruby/Rails" },
+          { skill: "Vue.js" },
+          { skill: "MySQL" },
+          { skill: "AWS" }
         ]
       }
     }
