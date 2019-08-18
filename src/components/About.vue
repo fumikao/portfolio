@@ -10,7 +10,7 @@
           <b-card title="自己紹介" sub-title="">
             <hr>
             <b-card-text>
-              はじめまして。大林史佳<a href="https://twitter.com/fumika78143169" target="_blank">(@fumika78143169)</a>と申します。<br>
+              はじめまして。大林史佳<a href="https://twitter.com/fumika78143169" target="_blank">(@fumika_obayashi)</a>と申します。<br>
               岡山県出身、1993年生まれの26歳です。
             </b-card-text>
             <b-card-text>
